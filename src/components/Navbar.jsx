@@ -12,12 +12,14 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img
-          src={Logo}
-          alt="my_logo"
-          style={{ width: "50px" }}
-          className="border-2 border-indigo-300 rounded-md"
-        />
+        <a href="/">
+          <img
+            src={Logo}
+            alt="my_logo"
+            style={{ width: "50px" }}
+            className="border-2 border-indigo-300 rounded-md"
+          />
+        </a>
       </div>
 
       <ul className="hidden md:flex text-xl font-semibold">
