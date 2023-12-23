@@ -8,7 +8,7 @@ const Home = () => {
         {/* Container */}
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
           <img
-            className="w-[200px] border-4 rounded-full mb-10 mx-auto sm:mx-0"
+            className="w-[200px] border-4 rounded-full mb-10 mx-auto sm:mx-0  hover:animate-ping"
             src={Moi}
             alt="moi"
           />
