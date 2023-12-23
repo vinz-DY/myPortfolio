@@ -1,11 +1,17 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import Moi from '../assets/moi.jpg'
 
 const Home = () => {
     return (
       <div name="home" className="w-full h-screen bg-[#0a192f]">
         {/* Container */}
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+          <img
+            className="w-[200px] border-4 rounded-full mb-10 mx-auto sm:mx-0"
+            src={Moi}
+            alt="moi"
+          />
           <p className="text-[#cbbeff]">Hi, My name is</p>
           <h1 className="sm:text-7xl text-4xl font-bold text-[#e1edff]">
             Vincent DY
@@ -21,7 +27,7 @@ const Home = () => {
           <div>
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6166d7] hover:border-[#6166d7]">
               View Work
-              <span className='group-hover:rotate-90 duration-300'>
+              <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
               </span>
             </button>
