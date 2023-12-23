@@ -28,7 +28,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://marguerite-santa.vercel.app/" target="blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
@@ -36,7 +36,7 @@ const Work = () => {
                   href="https://github.com/vinz-DY/Marguerite_Santa"
                   target="blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -58,7 +58,7 @@ const Work = () => {
                   href="https://vegglee.remote-fr-3.wilders.dev"
                   target="blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
@@ -66,7 +66,7 @@ const Work = () => {
                   href="https://github.com/vinz-DY/JS-RMT-React_If-Projet2-Vegglee"
                   target="blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -85,12 +85,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://vinz-dy.github.io/Just_React/" target="blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/vinz-DY/Just_React" target="blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
