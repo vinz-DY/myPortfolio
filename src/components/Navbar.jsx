@@ -4,6 +4,7 @@ import { GiHamburgerMenu} from "react-icons/gi";
 import { FaTimes, FaGithub, FaLinkedin, FaFacebook} from "react-icons/fa";
 import { HiOutlineMail} from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -23,11 +24,31 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex text-xl font-semibold">
-        <li className="hover:text-[#9db1f5]">Home</li>
-        <li className="hover:text-[#9db1f5]">About</li>
-        <li className="hover:text-[#9db1f5]">Skills</li>
-        <li className="hover:text-[#9db1f5]">Work</li>
-        <li className="hover:text-[#9db1f5]">Contact</li>
+        <li className="hover:text-[#9db1f5]">
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="hover:text-[#9db1f5]">
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="hover:text-[#9db1f5]">
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="hover:text-[#9db1f5]">
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className="hover:text-[#9db1f5]">
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Burger Menu */}
@@ -42,11 +63,31 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl hover:text-[#9db1f5]">Home</li>
-        <li className="py-6 text-4xl hover:text-[#9db1f5]">About</li>
-        <li className="py-6 text-4xl hover:text-[#9db1f5]">Skills</li>
-        <li className="py-6 text-4xl hover:text-[#9db1f5]">Work</li>
-        <li className="py-6 text-4xl hover:text-[#9db1f5]">Contact</li>
+        <li className="py-6 text-4xl hover:text-[#9db1f5]">
+          <Link onClick={handleclick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:text-[#9db1f5]">
+          <Link onClick={handleclick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:text-[#9db1f5]">
+          <Link onClick={handleclick} to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:text-[#9db1f5]">
+          <Link onClick={handleclick} to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:text-[#9db1f5]">
+          <Link onClick={handleclick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Social icons*/}
@@ -73,7 +114,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-200"
-              href="/"
+              href="mailto:vincentducampyong@gmail.com"
             >
               Email <HiOutlineMail size={30} />{" "}
             </a>
@@ -81,7 +122,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-br-lg">
             <a
               className="flex justify-between items-center w-full text-gray-200"
-              href="/"
+              href="https://drive.google.com/file/d/1A1JWubG9b-HDheVIc9COEVmychtVeogl/view?usp=sharing"
+              target="blank "
+              rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />{" "}
             </a>
