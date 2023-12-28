@@ -3,6 +3,8 @@ import Gift from "../assets/projects/gifts5.png";
 import Vegglee from "../assets/projects/vegglee.png";
 import Just from "../assets/projects/justreact.jpg";
 import Collec from "../assets/projects/collections_app.jpg";
+import Portfolio from "../assets/projects/portfolio.jpg";
+
 
 const Work = () => {
   return (
@@ -25,7 +27,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                React JS Game
               </span>
               <div className="pt-8 text-center">
                 <a href="https://marguerite-santa.vercel.app/" target="blank">
@@ -82,7 +84,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Vanilla JS Application
               </span>
               <div className="pt-8 text-center">
                 <a href="https://vinz-dy.github.io/Just_React/" target="blank">
@@ -121,6 +123,25 @@ const Work = () => {
                   href="https://github.com/vinz-DY/projet_fullstack"
                   target="blank"
                 >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white  text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*grid item*/}
+          <div
+            style={{ backgroundImage: `url(${Portfolio})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                React JS Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/vinz-DY/myPortfolio" target="blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white  text-gray-700 font-bold text-lg">
                     Code
                   </button>
