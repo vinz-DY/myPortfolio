@@ -2,7 +2,7 @@ import React from "react";
 import Gift from "../assets/projects/gifts5.png";
 import Vegglee from "../assets/projects/vegglee.png";
 import Just from "../assets/projects/justreact.jpg";
-import Collec from "../assets/projects/collections_app.jpg";
+import Collec from "../assets/projects/collec.jpg";
 import Portfolio from "../assets/projects/portfolio.jpg";
 import Loreal from "../assets/projects/backgroundLoreal.jpg";
 
@@ -118,7 +118,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://drive.google.com/file/d/1LAUuu1FFlA_LXcRYEaxBkirHyciHMx3F/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1BQbVqJo88h3ukPNYxtoZL0ifcEOTHb9G/view?usp=sharing"
                   target="blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white hover:animate-pulse text-gray-700 font-bold text-lg">
