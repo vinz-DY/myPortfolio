@@ -1,7 +1,7 @@
 import React from "react";
 import Gift from "../assets/projects/gifts5.png";
 import Vegglee from "../assets/projects/vegglee.png";
-import Just from "../assets/projects/justreact.jpg";
+import GreenDrive from "../assets/projects/greendrive.jpg";
 import Collec from "../assets/projects/collec.jpg";
 import Portfolio from "../assets/projects/portfolio.jpg";
 import Loreal from "../assets/projects/backgroundLoreal.jpg";
@@ -19,6 +19,33 @@ const Work = () => {
 
         {/*Container*/}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {/*grid item*/}
+          <div
+            style={{ backgroundImage: `url(${GreenDrive})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Vanilla JS Application
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://geocode.remote-fr-3.wilders.dev/"
+                  target="blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white hover:animate-pulse text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/vinz-DY/Greendrive" target="blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white  text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           {/*grid item*/}
           <div
             style={{ backgroundImage: `url(${Gift})` }}
@@ -129,31 +156,6 @@ const Work = () => {
                   href="https://github.com/vinz-DY/projet_fullstack"
                   target="blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white  text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/*grid item*/}
-          <div
-            style={{ backgroundImage: `url(${Just})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Vanilla JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://vinz-dy.github.io/Just_React/" target="blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white hover:animate-pulse text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/vinz-DY/Just_React" target="blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white  text-gray-700 font-bold text-lg">
                     Code
                   </button>
