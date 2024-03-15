@@ -39,7 +39,7 @@ const Footer = () => {
         <li className="">
           <a
             className=" text-gray-200"
-            href="https://drive.google.com/file/d/1A1JWubG9b-HDheVIc9COEVmychtVeogl/view?usp=sharing"
+            href="https://drive.google.com/file/d/1fdZkJ4olW6M9pSrlrzwmvtmX3ywbOVFK/view?usp=sharing"
             target="blank "
             rel="noopener noreferrer"
           >
