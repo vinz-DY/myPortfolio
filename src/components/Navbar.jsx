@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo3.jpg";
-import { GiHamburgerMenu} from "react-icons/gi";
-import { FaTimes, FaGithub, FaLinkedin, FaFacebook} from "react-icons/fa";
-import { HiOutlineMail} from "react-icons/hi";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaTimes, FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false)
-    const handleclick = () => setNav(!nav)
+  const [nav, setNav] = useState(false);
+  const handleclick = () => setNav(!nav);
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
@@ -122,7 +122,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-br-lg">
             <a
               className="flex justify-between items-center w-full text-gray-200"
-              href="https://drive.google.com/file/d/1A1JWubG9b-HDheVIc9COEVmychtVeogl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1fdZkJ4olW6M9pSrlrzwmvtmX3ywbOVFK/view?usp=sharing"
               target="blank "
               rel="noopener noreferrer"
             >
