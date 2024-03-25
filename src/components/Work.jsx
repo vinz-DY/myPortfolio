@@ -84,14 +84,14 @@ const Work = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a
+                {/* <a
                   href="https://vegglee.remote-fr-3.wilders.dev"
                   target="blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-[#cbbeff] hover:text-white hover:animate-pulse text-gray-700 font-bold text-lg">
                     Demo
                   </button>
-                </a>
+                </a> */}
                 <a
                   href="https://github.com/vinz-DY/JS-RMT-React_If-Projet2-Vegglee"
                   target="blank"
